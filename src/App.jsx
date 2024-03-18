@@ -1,11 +1,23 @@
-// ES7 kiegészítő kell és RAFCE 
+// ES7 kiegészítő kell és RAFCE szót akkor kitölti.
 
 
 import React from 'react'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import WhyUs from './components/WhyUs'
+import Latest from './components/Latest'
+import Footer from './components/Footer'
+
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <Navbar />
+      <Hero />
+      <WhyUs />
+      <Latest />
+      <Footer />
+    </div>
   )
 }
 
