@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+:root{
+  --gradient: linear-gradient(90deg, #31d165, #2bb9cf);
+}
+
+
+body{
+  width: 100%;
+  min-height: 100vh;
+}
+
+nav{
+  width: 100%;
+
+}
+
+nav>.wrapper{
+  max-width: 1000px;
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+nav ul{
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+
+nav>.wrapper>button{
+  background: var(--gradient);
+}
