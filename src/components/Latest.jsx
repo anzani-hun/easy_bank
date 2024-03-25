@@ -16,13 +16,27 @@ const Latest = () => {
         <h2>Latest</h2>
         <div className="cards">
 
-        { apiData.map(data => <div>{data.title}</div>) }
+          {apiData.map((data, idx) => <LatestCard key={idx} {...data} />)}
 
         </div>
-
       </div>
     </section>
   )
 }
+
+
+const LatestCard = (props) => {
+  return (
+    <div className='latest-card'>
+
+    <img src={"http://localhost:8000/" + props.img} alt="{props.title}" />
+    <div>
+      <h6>{props.creator}</h6>
+      <h3>{props.title}</h3>
+      <p>{props.content}</p>
+    </div>
+  </div>)
+}
+
 
 export default Latest
