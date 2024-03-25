@@ -46,9 +46,13 @@ found 0 vulnerabilities
 C:\Users\2022404\Documents\webbank_project\easy_bank>npm run dev
 
 
-
+------------------------------------------------------------------
 JSON 8000-es porton API elérése:
 python -m http.server 8000
 
-
 CORSE firefox kiegészítő kell hozzá hogy menjen.
+
+
+
+EZT másoltuk le:
+https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN
