@@ -83,7 +83,7 @@ nav .logo {
 
 
 #hero .wrapper {
-  min-height: 100vh;
+  min-height: 75vh;
   display: flex;
   align-items: center;
 }
@@ -142,6 +142,16 @@ nav .logo {
   font-weight: normal;
   margin-bottom: 20px;
 }
+
+
+@media only screen and (max-width: 1000px) {
+  #whyus .cards 
+  #latest .cards{
+    gap: 50px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 
 @media only screen and (max-width: 600px) {
   #hero .wrapper>div {
